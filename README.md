@@ -1,24 +1,25 @@
-# real-world-vue
-
-## Project setup
-```
-npm install
-```
+# event-list-vue
 
 ### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### mock API
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+json-server --watch db.json
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+-
+![screen01](https://user-images.githubusercontent.com/46622469/92470890-c1d23000-f1df-11ea-9e74-0461fdf2c67d.png)
+
+
+---
+## Some notes
+- dependencies to install
+
+`sass-loader`
+
+`node-sass`
+
+`lodash`
